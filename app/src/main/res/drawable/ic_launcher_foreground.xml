@@ -1,0 +1,193 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Foreground content safely placed within the 72dp circle safe-zone (radius 36 centered at 54,54) -->
+
+    <!-- Base Circular Emblem (White/Ivory) -->
+    <path
+        android:fillColor="#FBF8F3"
+        android:pathData="M54,20 A34,34 0 1,0 54.01,20 Z" />
+
+    <!-- Dark Green Outer Circular Border -->
+    <path
+        android:fillColor="#11361F"
+        android:pathData="M54,19 A35,35 0 1,0 54.01,19 Z
+                         M54,21 A33,33 0 1,1 54.01,21 Z" />
+
+    <!-- Big Warm Orange Sun -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M54,30 A10,10 0 1,0 54.01,30 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M54,28 A9,9 0 1,0 54.01,28 Z" />
+
+    <!-- Birds in Sky -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M60,35 Q61.5,33.5 63,35 Q64.5,33.5 66,35 Q64.5,34 63,36 Q61.5,34 60,35 Z" />
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M65,32 Q66,31 67,32 Q68,31 69,32 Q68,31.5 67,33 Q66,31.5 65,32 Z" />
+
+    <!-- Temple on Right with Saffron Flag -->
+    <!-- Flag -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M71,28 L75,30 L71,32 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M70.5,27 L71.5,27 L71.5,33 L70.5,33 Z" />
+    <!-- Temple Structure -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M69,33 L73,33 L74,38 L68,38 Z" />
+    <path
+        android:fillColor="#BCAAA4"
+        android:pathData="M67,38 L75,38 L76,43 L66,43 Z" />
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M65,43 L77,43 L77,46 L65,46 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M77,42 A3,3 0 1,0 77.01,42 Z" />
+
+    <!-- Tree on Left -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M38,40 Q39,45 37,50 L40,50 Q39,45 40,40 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M38,32 A8,8 0 1,0 38.01,32 Z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M34,30 A6,6 0 1,0 34.01,30 Z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M42,29 A6,6 0 1,0 42.01,29 Z" />
+
+    <!-- Village White House with Red Terracotta Roof -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,45 L53,45 L53,50 L43,50 Z" />
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M42,45 L48,40 L54,45 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M47,47 L49,47 L49,50 L47,50 Z" />
+
+    <!-- Small House 2 -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M54,46 L60,46 L60,50 L54,50 Z" />
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M53,46 L57,42 L61,46 Z" />
+
+    <!-- Village Dirt Path -->
+    <path
+        android:fillColor="#EAD2AC"
+        android:pathData="M54,50 Q60,52 57,55 Q53,58 48,59 L49,60 Q55,58 60,55 Q62,52 56,50 Z" />
+
+    <!-- House Gable Peak Roof Silhouette over 'गाव' (Dark Green) -->
+    <path
+        android:fillColor="#0D3A1E"
+        android:pathData="M73,48 L84,55 L82,56 L73,50 L64,56 L62,55 Z" />
+    <!-- 4-Pane Window under gable -->
+    <path
+        android:fillColor="#114524"
+        android:pathData="M71.5,52.5 L73,52.5 L73,54 L71.5,54 Z" />
+    <path
+        android:fillColor="#114524"
+        android:pathData="M73.5,52.5 L75,52.5 L75,54 L73.5,54 Z" />
+    <path
+        android:fillColor="#114524"
+        android:pathData="M71.5,54.5 L73,54.5 L73,56 L71.5,56 Z" />
+    <path
+        android:fillColor="#114524"
+        android:pathData="M73.5,54.5 L75,54.5 L75,56 L73.5,56 Z" />
+
+    <!-- MAIN TYPOGRAPHY: "माझं गाव" -->
+    <!-- Top Green Bar for 'माझं' -->
+    <path
+        android:fillColor="#0E3D20"
+        android:pathData="M27,57 L54,57 L54,59 L27,59 Z" />
+    <!-- Top Brown Bar for 'गाव' -->
+    <path
+        android:fillColor="#6D3715"
+        android:pathData="M55,57 L81,57 L81,59 L55,59 Z" />
+
+    <!-- 'माझं' (Dark Green) -->
+    <!-- 'मा' -->
+    <path
+        android:fillColor="#0E3D20"
+        android:pathData="M30,59 L32,59 L32,67 C32,69 29,70 28,68 C27,66 28,64 31,64 L32,64 L32,62 L30,62 Z M35,59 L37,59 L37,68 C37,71 34,72 32,71 L32,70 C34,70 35,69 35,67 L35,59 Z" />
+    <!-- Anusvara 'ं' -->
+    <path
+        android:fillColor="#0E3D20"
+        android:pathData="M43,55 A1.2,1.2 0 1,0 43.01,55 Z" />
+    <!-- 'झ' -->
+    <path
+        android:fillColor="#0E3D20"
+        android:pathData="M39,59 L47,59 L47,60 L42,60 L42,62 Q45,62 45,64.5 Q45,66.5 42.5,66.5 L42.5,68 L40.5,68 L40.5,66.5 L39.5,66.5 L39.5,65.5 L40.5,65.5 Q41.5,65.5 42,65 Q42,64 40.5,64 L40.5,60 L39,60 Z M46,59 L48,59 L48,68 L46,68 Z M42,63 L46,63 L46,64.5 L42,64.5 Z" />
+
+    <!-- 'गाव' (Rich Brown) -->
+    <!-- 'ग' & Kana 'ा' -->
+    <path
+        android:fillColor="#6D3715"
+        android:pathData="M57,59 L59,59 L59,66 C59,68 57,69 55.5,67.5 C54.5,66.5 55,64.5 57,64.5 L59,64.5 L59,63 L57,63 Z M62,59 L64,59 L64,68 L62,68 Z" />
+    <!-- 'व' -->
+    <path
+        android:fillColor="#6D3715"
+        android:pathData="M75,59 L77,59 L77,68 L75,68 Z M75,62 C72,62 70,63.5 70,65.5 C70,67.5 72,69 75,69 L75,67.5 C73,67.5 71.5,66.5 71.5,65.5 C71.5,64.5 73,63.5 75,63.5 Z" />
+
+    <!-- Swooping underline flourish -->
+    <path
+        android:fillColor="#0E3D20"
+        android:pathData="M28,68 C27,74 36,77 47,75 C58,73 66,70 76,73 C80,74 81,75 81,75 C81,75 78,73 74,72 C64,68 56,72 47,74 C36,76 29,73 28,68 Z" />
+
+    <!-- Tagline: "माझं गाव, माझी ओळख, माझा अभिमान" -->
+    <path
+        android:fillColor="#11361F"
+        android:pathData="M30,77 L34,77 L34,77.4 L30,77.4 Z
+                         M35,77.2 A0.6,0.6 0 1,0 35.01,77.2 Z
+                         M37,76.5 L71,76.5 L71,76.8 L37,76.8 Z
+                         M38,77 L44,77 L44,79 L38,79 Z
+                         M46,77 L52,77 L52,79 L46,79 Z
+                         M54,77 L61,77 L61,79 L54,79 Z
+                         M63,77 L70,77 L70,79 L63,79 Z
+                         M73,77.2 A0.6,0.6 0 1,0 73.01,77.2 Z
+                         M74,77 L78,77 L78,77.4 L74,77.4 Z" />
+
+    <!-- Center leaf decoration -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M54,80 A0.9,0.9 0 1,0 54.01,80 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M52,80 Q49,78.5 47,80 Q49,81 52,80 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M56,80 Q59,78.5 61,80 Q59,81 56,80 Z" />
+
+    <!-- Lush Terraced Green Fields at bottom with center dirt road -->
+    <path
+        android:fillColor="#174822"
+        android:pathData="M30,81 C37,88 45,92 54,92 C63,92 71,88 78,81 C70,79 62,80 54,81 C46,80 38,79 30,81 Z" />
+    <path
+        android:fillColor="#287337"
+        android:pathData="M34,83 C40,88 47,90 54,90 C61,90 68,88 74,83 C67,82 60,82 54,83 C48,82 41,82 34,83 Z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M38,85 C43,89 48,90 54,90 C60,90 65,89 70,85 C65,84 59,84 54,85 C49,84 43,84 38,85 Z" />
+
+    <!-- Village dirt track through fields -->
+    <path
+        android:fillColor="#EAD2AC"
+        android:pathData="M54,81 C53,85 51,89 48,93 L53,93 C55,90 55,85 54,81 Z" />
+
+</vector>

@@ -1,0 +1,7 @@
+{
+  "name": "गाव बससेवा",
+  "description": "Nanded district rural village bus timetable with schedules for Mahur, Kinwat and upcoming depots.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
